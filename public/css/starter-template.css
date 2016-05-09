@@ -1,0 +1,207 @@
+/****** generic *********/
+body {
+    background: #4ECDC4;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    /*GIPHY BG PROPERTIES */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+}
+
+h1,
+h6,
+p {
+    color: #000;
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px;
+    color: #000;
+}
+
+a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    color: #000;
+}
+
+button {
+    text-align: left;
+    float: left;
+}
+
+/****** classes *********/
+.main h1 {
+    text-shadow: 2px 2px #000;
+}
+
+.main h5 {
+    color: #000;
+}
+
+.header {
+    background-color: #4ECDC4;
+}
+
+.main {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #0FB8E4;
+}
+
+.nav li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.push {
+    margin-bottom: 100px;
+}
+
+.main h1 {
+    font-family: 'Cooper Hewitt', sans-serif;
+    color: #4ECDC4;
+    text-transform: uppercase;
+}
+
+.starter-template {
+    padding: 10px 15px 50px 15px;
+    text-align: center;
+}
+
+.admin-display {
+    padding: 10px 15px 50px 15px;
+    text-align: left;
+}
+
+.starter-template .form-group {
+    color: #000;
+    text-align: left;
+}
+
+.modal-header h4 {
+    font-family: 'Cooper Hewitt', sans-serif;
+    color: #0F7ADA;
+}
+
+.modal-body {
+    background: #0F7ADA;
+}
+
+.footer {
+    background-color: #0FB8E4;
+    color: #0F7ADA;
+    padding-top: 2px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer h5 {
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Cooper Hewitt', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.footer img {
+    margin: 0 auto;
+    display: block;
+    padding: 5px 0 5px 0;
+}
+
+.edit-button {
+    background-color: #fff;
+    color: #0F7ADA;
+}
+
+.refresh-button {
+    color: #0F7ADA;
+}
+
+.displayDate {
+    color: #0F7ADA;
+}
+
+.archive-display {
+    color: rgba(230, 230, 230);
+    padding: 10px 10px 20px 10px;
+    background-color: #fff;
+    height: 100%;
+}
+
+
+/* from http://css3buttongenerator.com/ */
+.success-btn {
+    background: #4ECDC4;
+    background-image: -webkit-linear-gradient(top, #4ECDC4, #4ECDC4);
+    background-image: -moz-linear-gradient(top, #4ECDC4, #4ECDC4);
+    background-image: -ms-linear-gradient(top, #4ECDC4, #4ECDC4);
+    background-image: -o-linear-gradient(top, #4ECDC4, #4ECDC4);
+    background-image: linear-gradient(to bottom, #4ECDC4, #4ECDC4);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 2px;
+    font-family: Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: inline;
+}
+
+.success-btn:hover {
+    background: #0FB8E4;
+    background-image: -webkit-linear-gradient(top, #0FB8E4, #0FB8E4);
+    background-image: -moz-linear-gradient(top, #0FB8E4, #0FB8E4);
+    background-image: -ms-linear-gradient(top, #0FB8E4, #0FB8E4);
+    background-image: -o-linear-gradient(top, #0FB8E4, #0FB8E4);
+    background-image: linear-gradient(to bottom, #0FB8E4, #0FB8E4);
+    text-decoration: none;
+}
+
+/****** IDs *********/
+
+#record-display {
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+}
+
+#giphy-display img {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+
+#admin-entry {
+    padding: 20px 0;
+}
+
+#til {
+    padding-bottom: 100px;
+}
+
+
