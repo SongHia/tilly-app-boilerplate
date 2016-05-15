@@ -18,7 +18,7 @@ Current features:
 Once you've set up the above, you can set up text prompts and resurface past entries with this code:
 <ul>
 <li>III. <a href="https://github.com/SongHia/tilly-app-bot-boilerplate">Tilly App Bot Repo</a></li>
-<ul>
+</ul>
 
 This uses modified boilerplate from <a href="https://github.com/sslover/designing-for-data-personalization">Sam Slover's Designing For Data Personalization course at NYU's ITP</a>.
 
