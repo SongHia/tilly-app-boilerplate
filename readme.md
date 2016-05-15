@@ -1,5 +1,4 @@
 ## TODAY I LEARNED
-===============================
 TIL.LY (Today I Learned) is an experiment in encouraging daily presence, reflection, and documentation of the everyday. Using text analysis (with <a href="http://alchemy.com">Alchemy's</a> Natural Language Processing) it resurfaces your past memories over time with animated GIFs from <a href="http://giphy.com">Giphy<a>.
 
 This repo has the packaged code for a webapp that uses Node.js / Express.js / MongoDB (+Mongoose).
@@ -7,10 +6,12 @@ I. Web App (Node.js / Express.js / MongoDb (+Mongoose)
 II. Twilio for SMS (this allows you do add entries through text messaging).
 
 Current features:
--make microdiary entries
--edit entries via the admin
--analyze, display, and surface relevant animated GIFs from past features
--add entries through text messaging
+<ul>
+<li>make microdiary entries</li>
+<li>edit entries via the admin</li>
+<li>analyze, display, and surface relevant animated GIFs from past features</li>
+<li>add entries through text messaging</li>
+</ul>
 
 Once you've set up the above, you can set up text prompts and resurface past entries with this code.
 III. <a href="https://github.com/SongHia/tilly-app-bot-boilerplate">Tilly App Bot Repo</a>
