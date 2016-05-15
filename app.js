@@ -5,7 +5,6 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
-var AlchemyAPI = require('alchemy-api');
 var env = require('node-env-file');
 
 var app = express();

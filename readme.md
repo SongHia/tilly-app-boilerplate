@@ -1,4 +1,23 @@
-## Node.js / Express.js / MongoDb (+Mongoose) Boilerplate
+## TODAY I LEARNED
+===============================
+TIL.LY (Today I Learned) is an experiment in encouraging daily presence, reflection, and documentation of the everyday. Using text analysis (with <a href="http://alchemy.com">Alchemy's</a> Natural Language Processing) it resurfaces your past memories over time with animated GIFs from <a href="http://giphy.com">Giphy<a>.
+
+This repo has the packaged code for a webapp that uses Node.js / Express.js / MongoDB (+Mongoose).
+I. Web App (Node.js / Express.js / MongoDb (+Mongoose)
+II. Twilio for SMS (this allows you do add entries through text messaging).
+
+Current features:
+-make microdiary entries
+-edit entries via the admin
+-analyze, display, and surface relevant animated GIFs from past features
+-add entries through text messaging
+
+Once you've set up the above, you can set up text prompts and resurface past entries with this code.
+III. <a href="https://github.com/SongHia/tilly-app-bot-boilerplate">Tilly App Bot Repo</a>
+
+This uses modified boilerplate from <a href="https://github.com/sslover/designing-for-data-personalization">Sam Slover's Designing For Data Personalization course at NYU's ITP</a>.
+
+## I. Web App (Node.js / Express.js / MongoDb (+Mongoose)
 
 This is boilerplate code for setting up a simple node.js RESTful API app using: the express.js framework, a MongoDb database (with the help of Mongoose), and hosting it on Heroku. Please refer to the following documentation for each of these components:
 
@@ -17,7 +36,7 @@ This is boilerplate code for setting up a simple node.js RESTful API app using: 
 
 3) Set up an account at <https://heroku.com>. You will be asked to enter a credit card, but the app we are doing will not incur any charges (they just need a card on file). In fact, all Heroku apps have a starter/free level.
 
-4) Download this boilerplate repo and navigate into the code directory with Terminal. To download it, click "Download Zip" at [the repo](https://github.com/sslover/node-express-api-boilerplate)... (do not clone it).
+4) Download this repo and navigate into the code directory with Terminal. To download it, click "Download Zip" at [the repo](https://github.com/SongHia/tilly-app-boilerplate)... (do not clone it).
 
 cd path/to/this/code/directory
 
@@ -204,7 +223,8 @@ To add a new node package, do the following in terminal:
 The --save flag will automatically include the package in package.json as a dependency.
 
 
-**Setting up Twilio for SMS**
+**II. Setting up Twilio for SMS**
+
 
 1) First and foremost, make sure you have a working node/express app. If you have not done that yet, go [here](https://github.com/sslover/node-express-api-boilerplate), download the boilerplate repo, and go through **the complete setup**.
 
